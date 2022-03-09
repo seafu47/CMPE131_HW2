@@ -9,6 +9,6 @@ def calculate_time(func):
 	return wrapper()
 
 @calculate_time
-	def func():
+def func():
 	return (anynumbrr)
 	
