@@ -5,7 +5,7 @@ def calculate_time(func):
 		func()
 		end = time.time()
 		x = end - start
-		print("Total time" , X)
+		print("Total time" , x)
 	return wrapper()
 
 @calculate_time
