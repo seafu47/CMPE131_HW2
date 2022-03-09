@@ -10,4 +10,4 @@ def calculate_time(func):
 
 @calculate_time
 def func():
-	i = 1
+	i = 0
