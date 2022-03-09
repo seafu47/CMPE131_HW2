@@ -10,5 +10,5 @@ def calculate_time(func):
 
 @calculate_time
 def func():
-	return (0)
+	return 0
 	
