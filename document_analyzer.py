@@ -2,7 +2,7 @@ def test():
 	data = open("document.txt", "r")
 	x = dict()
 	for line in data:
-		line = data.lower()			#convert everything to lowercase
+		#line = data.lower()			#convert everything to lowercase
 		words = line.split(" ")		#put a space inbetween words
 		
 	for word in words:							
@@ -10,9 +10,6 @@ def test():
 			x[word] = x[word] + 1		#increment word count
 		else:
 			x[word] = 1			#word count stay the same
-		
-		#for key in list(x.keys()): 
-		 # print ( key, ":" , x[key]) 
 
 	sortx = sorted( x, key = x.get, reverse= True) [:5] 	# sort the list in descending order
 	for i in range(len(sortx)):        			#loop through the 5 unique number
