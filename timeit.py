@@ -7,8 +7,8 @@ def calculate_time(func):
 		end = time.time()
 		x = end - start
 		print(f'Total time {x}')
-	return wrapper()
+	return wrapper
 
 @calculate_time
 def func():
-	time.time()
+	n = 1
