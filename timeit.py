@@ -1,4 +1,5 @@
 import time
+
 def calculate_time(func):
 	def wrapper():
 		start = time.time()
@@ -10,4 +11,4 @@ def calculate_time(func):
 
 @calculate_time
 def func():
-	i = 0
+	time.time()
