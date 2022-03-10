@@ -24,7 +24,7 @@ def test():
 	newd2 ={k:v for k, v in sorted(newd1.items(), key=lambda v: v[1], reverse=True)}
 	newd3 = dict(newd2)
 	for key in list(newd3.keys()):
-		print( key,':', newd3[key])
+		print(f'{key}: {newd3[key]}')
 
 
 	
